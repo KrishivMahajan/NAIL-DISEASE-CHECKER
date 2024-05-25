@@ -95,10 +95,16 @@ with tb2:
 			st.subheader(str(round(conf[4]*100,2))+' Confidence')"""
 		import inference
 		model = inference.get_model("nail-diseases-wnxuv/1")
-		pred=model.infer(
-			image=img2,
-			confidence=0.9
-				)
-		#st.write(pred[0].predicted_classes[0])
-		st.write(pred[0].predictions)
+		pred=model.infer(image=img2)
+		name = (pred[0].predicted_classes[0])
+		con = pred[0].predictions.get(name).find('=')
+		con = float(pred[0].predictions.get(name)[con+1:con+8])
+		col = st.columns(2)
+		with col[0]:
+			st.subheader('Prediction')
+			st.write(name)
+		with col[1]:
+			st.subheader('Confidence')
+			st.write(con)
+		
 
