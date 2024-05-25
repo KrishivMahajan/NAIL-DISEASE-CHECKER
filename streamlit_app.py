@@ -99,5 +99,5 @@ with tb2:
 			image=img2,
 			confidence=0.9
 				)
-		st.write(type(pred[0].predicted_classes))
+		st.write(pred[0].predicted_classes)
 
