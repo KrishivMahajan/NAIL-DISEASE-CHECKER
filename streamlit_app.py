@@ -97,7 +97,7 @@ with tb2:
 		model = inference.get_model("nail-diseases-wnxuv/1")
 		pred=model.infer(
 			image=img2,
-			confidence=0.5
+			confidence=0.9
 				)
 		st.write(pred[0])
 
