@@ -98,6 +98,7 @@ with tb2:
 		pred=model.infer(image=img2)
 		name = (pred[0].predicted_classes[0])
 		con = pred[0].predictions.get(name)
+		st.write(con)
 		con = con.find('=')
 		con = float(pred[0].predictions.get(name)[con+1:con+8])
 		col = st.columns(2)
