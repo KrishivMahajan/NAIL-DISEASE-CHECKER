@@ -98,15 +98,12 @@ with tb2:
 		pred=model.infer(image=img2)
 		name = (pred[0].predicted_classes[0])
 		con = pred[0].predictions.get(name)
-		st.write(type(con))
-		con = con.find('=')
-		con = float(pred[0].predictions.get(name)[con+1:con+8])
 		col = st.columns(2)
 		with col[0]:
 			st.subheader('Prediction')
 			st.write(name)
 		with col[1]:
 			st.subheader('Confidence')
-			st.write(con)
+			st.write(con.confidence)
 		
 
