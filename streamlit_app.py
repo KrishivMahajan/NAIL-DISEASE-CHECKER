@@ -65,34 +65,12 @@ with tb1:
 	
 with tb2:
 	st.header("TEST YOURSELF")
-	"""@st.cache_resource
-	def LoadModel():
-		mod=YOLO("File_nail.pt")
-		return mod """
 	img=st.file_uploader("UPLOAD THE IMAGE OF YOUR NAIL")
 	if img is not None:
 		col=st.columns(3)
 		col[1].image(img)
 		#img1=img.getvalue()
 		img2=Image.open(img)
-		"""model=LoadModel()
-		res=model.predict(img2,verbose=False)
-		label = res[0].probs.top5 
-		conf = res[0].probs.top5conf
-		conf = conf.tolist()
-		col1,col2 = st.columns(2)
-		with col1:
-			st.subheader(res[0].names[label[0]].title())
-			st.subheader(res[0].names[label[1]].title())
-			st.subheader(res[0].names[label[2]].title())
-			st.subheader(res[0].names[label[3]].title())
-			st.subheader(res[0].names[label[4]].title())		
-		with col2:
-			st.subheader(str(round(conf[0]*100,2))+' Confidence')
-			st.subheader(str(round(conf[1]*100,2))+' Confidence')
-			st.subheader(str(round(conf[2]*100,2))+' Confidence')
-			st.subheader(str(round(conf[3]*100,2))+' Confidence')
-			st.subheader(str(round(conf[4]*100,2))+' Confidence')"""
 		import inference
 		model = inference.get_model("nail-diseases-wnxuv/1")
 		pred=model.infer(image=img2)
