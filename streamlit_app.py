@@ -96,5 +96,5 @@ with tb2:
 		import inference
 		model = inference.get_model("nail-diseases-wnxuv/1")
 		pred=model.infer(image=img2)
-		st.write(pred)
+		st.write(pred[0])
 
