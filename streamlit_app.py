@@ -10,6 +10,7 @@ with tb1:
 	st.title(":medical_symbol: NAIL DISEASE DETECTOR")
 	st.write("---")
 	st.header("NAILS AND THEIR IMPORTANCE")
+	st.image("Nails.jpg",width=200)
 	st.write(
 		"""
 		Nails are protective structures composed of a protein called keratin that grow at the tips of the fingers and toes in humans and other mammals. They serve several important functions:
@@ -41,6 +42,7 @@ with tb1:
 		"""
 	)
 	st.header("WHY IS IT IMPORTANT TO DETECT THEM")
+	st.image("Disease.jpg",width=200)
 	st.write(
 		"""
 		- Early Intervention: Detecting nail diseases early can lead to more effective treatment and better outcomes. In many cases, early intervention can prevent the condition from worsening or spreading to other nails.
