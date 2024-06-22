@@ -84,8 +84,7 @@ with tb2:
 
 with tb3:
 	st.header("ABOUT THE CREATOR")
-	with st.container(height=50):
-		st.image("My.jpg")
+	st.image("My.jpg",width=50)
 	st.write(
 		"""
 		Greetings! I'm Krishiv Mahajan, a passionate grade 11 student at Sat Paul Mittal School with a profound love for computer science and an unwavering desire to make a positive impact in people's lives. As I embark on this journey, my mission is crystal clear - to combine the power of technology with a heartfelt commitment to your well-being.
