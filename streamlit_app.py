@@ -8,7 +8,7 @@ tb1, tb2, tb3 =st.tabs(["HOME", "DISEASE DETECTOR", "ABOUT ME"])
 
 with tb1:
 	st.title(":medical_symbol: NAIL DISEASE DETECTOR")
-	st.subheader("To Use the model, go to the 'DISEASE DETECTOR' tab")
+	st.write("To Use the model, go to the 'DISEASE DETECTOR' tab")
 	st.write("---")
 	st.header("NAILS AND THEIR IMPORTANCE")
 	cl1=st.columns([0.7,0.3])
