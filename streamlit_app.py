@@ -85,7 +85,7 @@ with tb2:
 with tb3:
 	st.header("ABOUT THE CREATOR")
 	col = st.columns(3)
-	col[2].image("My.jpg")
+	col[1].image("My.jpg")
 	st.write(
 		"""
 		Greetings! I'm Krishiv Mahajan, a passionate grade 11 student at Sat Paul Mittal School with a profound love for computer science and an unwavering desire to make a positive impact in people's lives. As I embark on this journey, my mission is crystal clear - to combine the power of technology with a heartfelt commitment to your well-being.
