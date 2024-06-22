@@ -52,13 +52,13 @@ with tb2:
  """)
 	dic={
 
-"Fungal Nail Infections (Onychomycosis)": "Fungal nail infections are common and can affect one or more nails. They often appear as discolored, thickened, and brittle nails. Fungal infections are typically caused by dermatophytes, yeast, or molds. Treatment may include topical or oral antifungal medications."
-"Psoriasis": "Psoriasis is a chronic skin condition that can also affect the nails. Nail psoriasis can cause pitting, discoloration, and separation of the nail from the nail bed. It is often associated with skin psoriasis and can be treated with topical steroids or other psoriasis medications."
-"Eczema (Dermatitis)": "Eczema can affect the skin around the nails, leading to redness, swelling, and peeling of the skin. This condition may be associated with itching and discomfort. Managing eczema with moisturizers and topical corticosteroids can help alleviate symptoms."
-"Ingrown Nails (Onychocryptosis)": "Ingrown nails occur when the edges of the nails grow into the surrounding skin, causing pain, redness, and inflammation. Proper nail trimming and avoiding tight-fitting footwear can help prevent ingrown nails. In severe cases, minor surgical procedures may be required."
-"Beau's Lines": "Beau's lines are transverse depressions or ridges that run horizontally across the nails. They can be caused by a variety of factors, including illness, trauma, or nutritional deficiencies. The appearance of Beau's lines can offer insight into the timing of an underlying health issue."
-"Yellow Nail Syndrome": "Yellow nail syndrome is a rare condition that can cause nails to thicken, yellow, and grow more slowly. It may be associated with lymphedema and respiratory issues. Identifying and managing the underlying causes of the syndrome is crucial."
-"Clubbing": "Nail clubbing is characterized by an enlargement of the fingertips and a downward curving of the nails. It can be associated with various lung and heart conditions. If clubbing is observed, it is important to consult a healthcare professional to identify and address the underlying issue."
+"Fungal Nail Infections (Onychomycosis)": "Fungal nail infections are common and can affect one or more nails. They often appear as discolored, thickened, and brittle nails. Fungal infections are typically caused by dermatophytes, yeast, or molds. Treatment may include topical or oral antifungal medications.",
+"Psoriasis": "Psoriasis is a chronic skin condition that can also affect the nails. Nail psoriasis can cause pitting, discoloration, and separation of the nail from the nail bed. It is often associated with skin psoriasis and can be treated with topical steroids or other psoriasis medications.",
+"Eczema (Dermatitis)": "Eczema can affect the skin around the nails, leading to redness, swelling, and peeling of the skin. This condition may be associated with itching and discomfort. Managing eczema with moisturizers and topical corticosteroids can help alleviate symptoms.",
+"Ingrown Nails (Onychocryptosis)": "Ingrown nails occur when the edges of the nails grow into the surrounding skin, causing pain, redness, and inflammation. Proper nail trimming and avoiding tight-fitting footwear can help prevent ingrown nails. In severe cases, minor surgical procedures may be required.",
+"Beau's Lines": "Beau's lines are transverse depressions or ridges that run horizontally across the nails. They can be caused by a variety of factors, including illness, trauma, or nutritional deficiencies. The appearance of Beau's lines can offer insight into the timing of an underlying health issue.",
+"Yellow Nail Syndrome": "Yellow nail syndrome is a rare condition that can cause nails to thicken, yellow, and grow more slowly. It may be associated with lymphedema and respiratory issues. Identifying and managing the underlying causes of the syndrome is crucial.",
+"Clubbing": "Nail clubbing is characterized by an enlargement of the fingertips and a downward curving of the nails. It can be associated with various lung and heart conditions. If clubbing is observed, it is important to consult a healthcare professional to identify and address the underlying issue.",
 "Koilonychia": "Koilonychia is a condition where the nails become concave or spoon-shaped. It can be a sign of iron-deficiency anemia or hemochromatosis, among other conditions. Treating the underlying cause is essential."
 }
 	st.header("TEST YOURSELF")
@@ -84,7 +84,8 @@ with tb2:
 
 with tb3:
 	st.header("ABOUT THE CREATOR")
-	st.image("My.jpg",width=200)
+	col = st.columns(3)
+	col[2].image("My.jpg")
 	st.write(
 		"""
 		Greetings! I'm Krishiv Mahajan, a passionate grade 11 student at Sat Paul Mittal School with a profound love for computer science and an unwavering desire to make a positive impact in people's lives. As I embark on this journey, my mission is crystal clear - to combine the power of technology with a heartfelt commitment to your well-being.
