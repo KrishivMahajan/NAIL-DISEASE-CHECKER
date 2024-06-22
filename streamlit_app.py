@@ -27,7 +27,7 @@ with tb1:
 	
 	st.write("---")
 	cl2=st.columns([0.3,0.7])
-	cl2[0].image("Disease.JPG",width=320)
+	cl2[0].image("Disease.JPG",width=340)
 	cl2[1].header("WHY IS IT IMPORTANT TO DETECT THEM")
 	cl2[1].write(
 		"""
