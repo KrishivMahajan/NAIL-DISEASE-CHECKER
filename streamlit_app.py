@@ -10,8 +10,9 @@ with tb1:
 	st.title(":medical_symbol: NAIL DISEASE DETECTOR")
 	st.write("---")
 	st.header("NAILS AND THEIR IMPORTANCE")
-	st.image("Nails.JPG",width=200)
-	st.write(
+	cl1=st.columns([0.7,0.3])
+	cl1[1].image("Nails.JPG")
+	cl1[0].write(
 		"""
 		Nails are protective structures composed of a protein called keratin that grow at the tips of the fingers and toes in humans and other mammals. They serve several important functions:
 
@@ -23,27 +24,11 @@ with tb1:
 	- Cosmetic and Aesthetic Value: For many people, well-maintained nails are an important aspect of personal grooming and aesthetics. Manicures and pedicures are popular beauty treatments to enhance the appearance of nails.
 		"""
 	)
-	st.header("NAIL DISEASES")
-	st.write(
-		"""
-		Nails can sometimes provide clues about a person's health, and certain changes in nail appearance may be indicative of underlying medical conditions. Here are some nail-related conditions and the information they can provide:
-
-	- Fungal Nail Infections (Onychomycosis): Fungal nail infections are common and can affect one or more nails. They often appear as discolored, thickened, and brittle nails. Fungal infections are typically caused by dermatophytes, yeast, or molds. Treatment may include topical or oral antifungal medications.
-	- Psoriasis: Psoriasis is a chronic skin condition that can also affect the nails. Nail psoriasis can cause pitting, discoloration, and separation of the nail from the nail bed. It is often associated with skin psoriasis and can be treated with topical steroids or other psoriasis medications.
-	- Eczema (Dermatitis): Eczema can affect the skin around the nails, leading to redness, swelling, and peeling of the skin. This condition may be associated with itching and discomfort. Managing eczema with moisturizers and topical corticosteroids can help alleviate symptoms.
-	- Ingrown Nails (Onychocryptosis): Ingrown nails occur when the edges of the nails grow into the surrounding skin, causing pain, redness, and inflammation. Proper nail trimming and avoiding tight-fitting footwear can help prevent ingrown nails. In severe cases, minor surgical procedures may be required.
-	- Beau's Lines: Beau's lines are transverse depressions or ridges that run horizontally across the nails. They can be caused by a variety of factors, including illness, trauma, or nutritional deficiencies. The appearance of Beau's lines can offer insight into the timing of an underlying health issue.
-	- Yellow Nail Syndrome: Yellow nail syndrome is a rare condition that can cause nails to thicken, yellow, and grow more slowly. It may be associated with lymphedema and respiratory issues. Identifying and managing the underlying causes of the syndrome is crucial.
-	- Clubbing: Nail clubbing is characterized by an enlargement of the fingertips and a downward curving of the nails. It can be associated with various lung and heart conditions. If clubbing is observed, it is important to consult a healthcare professional to identify and address the underlying issue.
-	- Koilonychia: Koilonychia is a condition where the nails become concave or spoon-shaped. It can be a sign of iron-deficiency anemia or hemochromatosis, among other conditions. Treating the underlying cause is essential.
-	- Nail Trauma: Physical trauma or repeated stress on the nails can lead to nail disorders or abnormalities. Proper nail care, protection, and avoiding excessive trauma can help maintain nail health.
 	
-	It's important to note that changes in the nails can result from various causes, and while they can offer valuable diagnostic clues, a healthcare professional or dermatologist should evaluate any persistent or concerning nail changes. These professionals can determine the underlying causes and recommend appropriate treatments or interventions.
-		"""
-	)
 	st.header("WHY IS IT IMPORTANT TO DETECT THEM")
-	st.image("Disease.JPG",width=200)
-	st.write(
+	cl2=st.columns([0.3,0.7])
+	cl2[0].image("Disease.JPG")
+	cl2[1].write(
 		"""
 		- Early Intervention: Detecting nail diseases early can lead to more effective treatment and better outcomes. In many cases, early intervention can prevent the condition from worsening or spreading to other nails.
 	- Underlying Health Issues: Changes in nail appearance can sometimes be a sign of underlying health conditions, such as fungal infections, psoriasis, or nutritional deficiencies. Identifying these signs can prompt further medical evaluation, which may lead to the diagnosis and treatment of other health problems.
