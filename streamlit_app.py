@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 st.set_page_config(page_title="NAIL DISEASE DETECTOR", page_icon=":medical_symbol:", layout="wide")
 
-tb1, tb2 =st.tabs(["HOME", "DISEASE DETECTOR"])
+tb1, tb2, tb3 =st.tabs(["HOME", "DISEASE DETECTOR", "ABOUT ME"])
 
 with tb1:
 	st.title(":medical_symbol: NAIL DISEASE DETECTOR")
@@ -53,17 +53,15 @@ with tb1:
 	- Personal Grooming and Well-Being: Many people take pride in their personal grooming, and healthy nails are a part of that. Maintaining the health and appearance of nails can contribute to a person's overall well-being and self-confidence.
 	"""
 	)
-	st.header("ABOUT THE CREATOR")
-	st.write(
-		"""
-		Greetings! I'm Krishiv Mahajan, a passionate grade 11 student at Sat Paul Mittal School with a profound love for computer science and an unwavering desire to make a positive impact in people's lives. As I embark on this journey, my mission is crystal clear - to combine the power of technology with a heartfelt commitment to your well-being.
-	In a world where health takes precedence, I've set out to create a dedicated space where your nail health is at the forefront. Nails are often the silent messengers of underlying health issues, and my aim is to empower you with the tools to detect diseases early and take control of your well-being.
-	My dedication to the world of computer science fuels my pursuit of innovation and excellence. I believe that technology can be a force for good, and together, we can harness its potential to revolutionize how we care for our nails and, in turn, our overall health.
-	With the Nail Disease Detection website, I aspire to provide a valuable resource for everyone. Whether you're seeking answers to your nail-related concerns or simply want to stay informed about your health, you'll find a supportive community here.
-		"""
-	)
+	
 	
 with tb2:
+	st.markdown("""HOW TO USE THE APP
+- Click on Browse Files
+- Click a clear picture of your nail or select from your gallery if already clicked
+- Upload the image 
+- The model will predict the disease
+ """)
 	st.header("TEST YOURSELF")
 	img=st.file_uploader("UPLOAD THE IMAGE OF YOUR NAIL")
 	if img is not None:
@@ -83,5 +81,16 @@ with tb2:
 		with col[1]:
 			st.subheader('Confidence')
 			st.write(con.confidence)
-		
+
+with tb3:
+	st.header("ABOUT THE CREATOR")
+	st.image("My.jpg")
+	st.write(
+		"""
+		Greetings! I'm Krishiv Mahajan, a passionate grade 11 student at Sat Paul Mittal School with a profound love for computer science and an unwavering desire to make a positive impact in people's lives. As I embark on this journey, my mission is crystal clear - to combine the power of technology with a heartfelt commitment to your well-being.
+	In a world where health takes precedence, I've set out to create a dedicated space where your nail health is at the forefront. Nails are often the silent messengers of underlying health issues, and my aim is to empower you with the tools to detect diseases early and take control of your well-being.
+	My dedication to the world of computer science fuels my pursuit of innovation and excellence. I believe that technology can be a force for good, and together, we can harness its potential to revolutionize how we care for our nails and, in turn, our overall health.
+	With the Nail Disease Detection website, I aspire to provide a valuable resource for everyone. Whether you're seeking answers to your nail-related concerns or simply want to stay informed about your health, you'll find a supportive community here.
+		"""
+	)
 
