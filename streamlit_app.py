@@ -27,7 +27,7 @@ with tb1:
 	
 	st.header("WHY IS IT IMPORTANT TO DETECT THEM")
 	cl2=st.columns([0.3,0.7])
-	cl2[0].image("Disease.JPG",width=400)
+	cl2[0].image("Disease.JPG",width=300)
 	cl2[1].write(
 		"""
 		- Early Intervention: Detecting nail diseases early can lead to more effective treatment and better outcomes. In many cases, early intervention can prevent the condition from worsening or spreading to other nails.
