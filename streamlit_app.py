@@ -53,14 +53,16 @@ with tb2:
  """)
 	dic={
 
-"Fungal Nail Infections (Onychomycosis)": "Fungal nail infections are common and can affect one or more nails. They often appear as discolored, thickened, and brittle nails. Fungal infections are typically caused by dermatophytes, yeast, or molds. Treatment may include topical or oral antifungal medications.",
-"Psoriasis": "Psoriasis is a chronic skin condition that can also affect the nails. Nail psoriasis can cause pitting, discoloration, and separation of the nail from the nail bed. It is often associated with skin psoriasis and can be treated with topical steroids or other psoriasis medications.",
-"Eczema (Dermatitis)": "Eczema can affect the skin around the nails, leading to redness, swelling, and peeling of the skin. This condition may be associated with itching and discomfort. Managing eczema with moisturizers and topical corticosteroids can help alleviate symptoms.",
-"Ingrown Nails (Onychocryptosis)": "Ingrown nails occur when the edges of the nails grow into the surrounding skin, causing pain, redness, and inflammation. Proper nail trimming and avoiding tight-fitting footwear can help prevent ingrown nails. In severe cases, minor surgical procedures may be required.",
+"Acral Lentiginous Melanoma": "Acral lentiginous melanoma (ALM) is a rare subtype of melanoma arising on the palms, soles, or under the nails. It is also known as acral melanoma",
 "Beaus Line": "Beau's lines are transverse depressions or ridges that run horizontally across the nails. They can be caused by a variety of factors, including illness, trauma, or nutritional deficiencies. The appearance of Beau's lines can offer insight into the timing of an underlying health issue.",
-"Yellow Nail Syndrome": "Yellow nail syndrome is a rare condition that can cause nails to thicken, yellow, and grow more slowly. It may be associated with lymphedema and respiratory issues. Identifying and managing the underlying causes of the syndrome is crucial.",
+"Blue Finger": "It is a benign and rare condition with an idiopathic aetiology. Blue finger can mean your organs, muscles and tissues aren’t getting the amount of blood they need to function properly. Many different conditions can cause cyanosis.",
 "Clubbing": "Nail clubbing is characterized by an enlargement of the fingertips and a downward curving of the nails. It can be associated with various lung and heart conditions. If clubbing is observed, it is important to consult a healthcare professional to identify and address the underlying issue.",
-"Koilonychia": "Koilonychia is a condition where the nails become concave or spoon-shaped. It can be a sign of iron-deficiency anemia or hemochromatosis, among other conditions. Treating the underlying cause is essential."
+"Koilonychia": "Koilonychia is a condition where the nails become concave or spoon-shaped. It can be a sign of iron deficiency anaemia or hemochromatosis, among other conditions. Treating the underlying cause is essential.",
+"Lindsay-s Nail": "Half and half nails  show the proximal portion of the nail white and the distal half red, pink, or brown, with a sharp line of demarcation between the two halves",
+"Muehrckes Lines": "Muehrcke's lines appear as double white lines that run across the fingernails horizontally. The lines have been linked to low levels of a protein called albumin.",
+"Onychogryphosis": "Onychogryphosis, also known as ram’s horn nail, is a nail disorder resulting from slow nail plate growth. Onychogryphosis is a nail disease that causes one side of the nail to grow faster than the other. ",
+"Pitting": "Nail pitting may show up as shallow or deep holes in your nails. The pitting can happen on your fingernails or your toenails. It's common in people who have skin disorders such as psoriasis and eczema.",
+"Terry-s Nail": "Terry’s nails is a type of nail discolouration. Terry’s nails is a symptom of a chronic condition, such as liver failure or diabetes. Sometimes, it is a sign of aging."
 }
 	st.header("TEST YOURSELF")
 	img=st.file_uploader("UPLOAD THE IMAGE OF YOUR NAIL")
