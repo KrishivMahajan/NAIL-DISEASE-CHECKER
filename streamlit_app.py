@@ -2,7 +2,7 @@ import streamlit  as st
 from PIL import Image
 from ultralytics import YOLO
 
-st.set_page_config(page_title="Cuti-Cure", page_icon=":medical_symbol:", layout="wide")
+st.set_page_config(page_title="CutiCure", page_icon=":medical_symbol:", layout="wide")
 
 tb1, tb2, tb3 =st.tabs(["HOME", "DISEASE DETECTOR", "ABOUT ME"])
 
