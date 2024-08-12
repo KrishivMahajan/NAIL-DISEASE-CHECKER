@@ -7,7 +7,7 @@ st.set_page_config(page_title="CutiCure", page_icon=":medical_symbol:", layout="
 tb1, tb2, tb3 =st.tabs(["HOME", "DISEASE DETECTOR", "ABOUT ME"])
 
 with tb1:
-	st.title(":medical_symbol: NAIL DISEASE DETECTOR")
+	st.title(":medical_symbol: CutiCure")
 	st.write("To Use the model, go to the 'DISEASE DETECTOR' tab")
 	st.write("---")
 	st.header("NAILS AND THEIR IMPORTANCE")
